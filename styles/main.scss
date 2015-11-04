@@ -1,6 +1,8 @@
 $wrapper-width: 90%;
-$border: 3px solid grey;
-
+$border: 3px solid black;
+$round: 25px;
+$serif: 'Libre Baskerville', serif;
+$sans-serif: 'Signika', sans-serif;
 
 #wrapper {
   width: $wrapper-width;
@@ -8,15 +10,19 @@ $border: 3px solid grey;
   margin-right: auto;
   position: relative;
   border: $border;
+  border-radius: $round;
   height: 800px;
 }
 
 #tiptop {
   border: $border;
+  border-radius: $round;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
   height: 120px;
+  background: rgba(148, 157, 181, 1);
+  font-family: $serif;
 }
 
 h1 {
@@ -27,6 +33,7 @@ h1 {
   max-height: 19.5%;
   max-width: 19.5%;
   float: right;
+  border-radius: $round;
 }
 
 #nav_bar {
@@ -35,7 +42,15 @@ h1 {
   border-left: $border;
   border-right: $border;
   border-bottom: $border;
+  border-radius: $round;
   height: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 135px;
+  text-align: center;
+  font-family: $sans-serif;
 }
 
 .columns {
@@ -43,7 +58,26 @@ h1 {
   margin: 10px;
   width: 31%;
   border: $border;
+  border-radius: $round;
   height: 480px;
+}
+
+#first_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: $sans-serif;
+}
+
+#second_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: $sans-serif;
+}
+
+#third_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: $sans-serif;
 }
 
 #so_long{
@@ -52,4 +86,29 @@ h1 {
   margin: 10px;
   margin-top: 20px;
   border: $border;
+  border-radius: $round;
+  background: rgba(148, 157, 181, 1);
+}
+
+#pilates img {
+  max-height: 170px;
+  max-width: 180px;
+  float: right;
+  border-radius: $round;
+  margin-right: 220px;
+}
+#meditation img {
+  max-height: 236px;
+  max-width: 236px;
+  border-radius: $round;
+  float:right;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+#yoga img {
+  max-height: 140px;
+  max-width: 160px;
+  float: left;
+  border-radius: $round;
+  margin-left: 220px;
 }

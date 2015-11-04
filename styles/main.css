@@ -3,15 +3,19 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  border: 3px solid grey;
+  border: 3px solid black;
+  border-radius: 25px;
   height: 800px; }
 
 #tiptop {
-  border: 3px solid grey;
+  border: 3px solid black;
+  border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  height: 120px; }
+  height: 120px;
+  background: #949db5;
+  font-family: "Libre Baskerville", serif; }
 
 h1 {
   text-align: center; }
@@ -19,28 +23,76 @@ h1 {
 #lotus img {
   max-height: 19.5%;
   max-width: 19.5%;
-  float: right; }
+  float: right;
+  border-radius: 25px; }
 
 #nav_bar {
   margin-left: 10px;
   margin-right: 10px;
-  border-left: 3px solid grey;
-  border-right: 3px solid grey;
-  border-bottom: 3px solid grey;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 25px;
   height: 20px; }
+
+li {
+  display: inline-block;
+  padding-left: 135px;
+  text-align: center;
+  font-family: "Signika", sans-serif; }
 
 .columns {
   float: left;
   margin: 10px;
   width: 31%;
-  border: 3px solid grey;
+  border: 3px solid black;
+  border-radius: 25px;
   height: 480px; }
+
+#first_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Signika", sans-serif; }
+
+#second_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Signika", sans-serif; }
+
+#third_col {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Signika", sans-serif; }
 
 #so_long {
   clear: both;
   height: 120px;
   margin: 10px;
   margin-top: 20px;
-  border: 3px solid grey; }
+  border: 3px solid black;
+  border-radius: 25px;
+  background: #949db5; }
+
+#pilates img {
+  max-height: 170px;
+  max-width: 180px;
+  float: right;
+  border-radius: 25px;
+  margin-right: 220px; }
+
+#meditation img {
+  max-height: 236px;
+  max-width: 236px;
+  border-radius: 25px;
+  float: right;
+  margin-right: 40px;
+  margin-left: 40px; }
+
+#yoga img {
+  max-height: 140px;
+  max-width: 160px;
+  float: left;
+  border-radius: 25px;
+  margin-left: 220px; }
 
 /*# sourceMappingURL=main.css.map */
